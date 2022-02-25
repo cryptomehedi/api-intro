@@ -4,7 +4,7 @@ function loadPost(){
     .then(data => displayPost(data))
 }
 
-// loadPost()
+loadPost()
 
 function displayPost(posts){
     const section = document.querySelector('#post');
@@ -39,4 +39,4 @@ function addPost(){
     .then(data => console.log(data))
 }
 
-// addPost()
+addPost()
